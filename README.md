@@ -1,0 +1,1 @@
+This is a an assignment to recreate a webpage that was pre-designed within The Odin Project.  The colorscheme, and fonts were given, however there was no supplemented HTML or CSS.  It is strictly an attempt to look at a page and recreate it to the best of my abilities.
