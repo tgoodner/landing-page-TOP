@@ -74,6 +74,7 @@ h1.title {
 
 .information {
     text-align: center;
+    padding: 80px;
 }
 
 .info-title {
@@ -88,4 +89,81 @@ h1.title {
     border-radius: 12px;
     width: 200px;
     height: 200px;
+}
+
+.information .container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quote {
+    padding: 80px;
+    text-align: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: light;
+    font-style: italic;
+    padding: 8%;
+}
+
+.quote h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: normal;
+    text-align: right;
+    margin-right: 5em;
+}
+
+.call-to-action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cta-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 100px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.cta-text {
+    margin-left: 10%;
+}
+
+.sign-up {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-radius: 5px;
+    border-style: solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
 }
